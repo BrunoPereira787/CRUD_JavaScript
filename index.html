@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Agenda do Brunão</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Agenda do Brunão</h1>
+        </div>
+        <div class="main">
+            <button type="button" class="buttons abrirContato">Cadastrar Contato</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Celular</th>
+                        <th>E-mail</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>    
+            </table>
+        </div>
+
+        <div class="novoContato">
+            <div class="headerContato">
+                <h1>Novo Contato</h1>
+                <span class="fecharContato"></span>
+            </div>
+            <form>
+                <input type="text" class="nome" name="Nome" data-index="new" placeholder="Nome" required>
+                <input type="text" class="celular" name="Celular" placeholder="Celular" required>
+                <input type="email" class="email" name="e-mail" placeholder="E-mail" required>
+            </form>
+            <div class="button">
+                <button class="verde salvarContato">Salvar</button>
+                <button class="vermelho cancelar">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
